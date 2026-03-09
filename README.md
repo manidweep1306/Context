@@ -7,14 +7,14 @@ This is a Minimum Viable Product (MVP) for an AI-powered study assistant that ex
 - [Node.js](https://nodejs.org/) (for React Frontend)
 - [Python 3.9+](https://www.python.org/downloads/)
 - [Google Gemini API Key](https://makersuite.google.com/app/apikey)
-- [Firebase Service Account Key](https://console.firebase.google.com/) (Optional for MVP, required for DB)
+- [Supabase](https://supabase.com/dashboard/project/alhugbwfhykvzbdurgkx) (Optional for MVP, required for DB)
 
 ## Setup Instructions
 
 ### 1. Configure Environment
 1. Open `backend/.env`.
 2. Replace `YOUR_GEMINI_API_KEY_HERE` with your actual Google Gemini API Key.
-3. (Optional) Place your Firebase `serviceAccountKey.json` in the `backend/` folder.
+3. (Optional) Place your supabase `serviceAccountKey.json` in the `backend/` folder.
 
 ### 2. Install Backend Dependencies
 Navigate to the `backend` folder and install Python packages:
@@ -48,4 +48,4 @@ Open the link shown (usually `http://localhost:5173`) in your browser.
 ## Project Structure
 - `backend/`: FastAPI backend with Firebase & Gemini integration.
 - `frontend/`: React + Vite frontend.
-- `serviceAccountKey.json`: Firebase credentials (place inside backend).
+- `serviceAccountKey.json`: Supabase credentials (place inside backend).
