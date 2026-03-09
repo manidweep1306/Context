@@ -1,4 +1,4 @@
-# Multilingual Learning Support MVP
+# Context Multilingual Learning Support MVP
 
 This is a Minimum Viable Product (MVP) for an AI-powered study assistant that explains concepts in the student's preferred language using Google Gemini and stores them in PostgreSQL.
 
